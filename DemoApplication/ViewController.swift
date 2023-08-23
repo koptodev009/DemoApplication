@@ -10,12 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var lblName: UILabel!
     
-    @IBOutlet weak var lblFullName: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         lblName.text = "Hello"
-        lblFullName.text = "World"
     }
 
 
